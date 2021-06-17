@@ -11,6 +11,8 @@
 		C33ADF5D267785AF00D9AE57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ADF5C267785AF00D9AE57 /* ContentView.swift */; };
 		C33ADF5F267785B100D9AE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33ADF5E267785B100D9AE57 /* Assets.xcassets */; };
 		C33ADF62267785B100D9AE57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33ADF61267785B100D9AE57 /* Preview Assets.xcassets */; };
+		C33ADF6A2677A0DD00D9AE57 /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ADF692677A0DD00D9AE57 /* SliderUIKit.swift */; };
+		C3E8080C267B3B3E007CD956 /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8080B267B3B3E007CD956 /* GameSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C33ADF5E267785B100D9AE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33ADF61267785B100D9AE57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C33ADF63267785B100D9AE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33ADF692677A0DD00D9AE57 /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
+		C3E8080B267B3B3E007CD956 /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				C33ADF5A267785AF00D9AE57 /* GameOfSliderApp.swift */,
 				C33ADF5C267785AF00D9AE57 /* ContentView.swift */,
+				C3E8080B267B3B3E007CD956 /* GameSlider.swift */,
+				C33ADF692677A0DD00D9AE57 /* SliderUIKit.swift */,
 				C33ADF5E267785B100D9AE57 /* Assets.xcassets */,
 				C33ADF63267785B100D9AE57 /* Info.plist */,
 				C33ADF60267785B100D9AE57 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E8080C267B3B3E007CD956 /* GameSlider.swift in Sources */,
 				C33ADF5D267785AF00D9AE57 /* ContentView.swift in Sources */,
+				C33ADF6A2677A0DD00D9AE57 /* SliderUIKit.swift in Sources */,
 				C33ADF5B267785AF00D9AE57 /* GameOfSliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
